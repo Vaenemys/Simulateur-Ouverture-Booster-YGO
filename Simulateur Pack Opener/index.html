@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <style type="text/css">
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                background-image: url('accueil.png');
+                background-attachment: fixed;
+                background-size: cover;
+                color: white;
+            }
+            table,
+            td {
+                border: 1px solid #333;
+            }
+            thead,
+            tfoot {
+                background-color: #333333;
+                color: black;
+            }
+            #open{
+                white-space:pre-line;
+            }
+        </style>
+        <script src="Datacard/sast.js"></script>
+        <title>Simulateur d'ouverture de Booster</title>
+    </head>
+
+    <body>
+        <h1>Un simulateur d'ouverture de booster Yu-Gi-Oh!</h1>
+        <br>
+        <p>Cliquez sur le bouton "Ouvrir le booster" pour ouvrir votre booster, bonne chance!</p>
+        <br>
+        <button id="display" onclick="openBooster()">Ouvrir le booster</button>
+        <div id="open"></div>
+        <br>
+        <table>
+            <thead>
+            </thead>
+            <tbody>
+            <tr id="choseme">
+            </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
