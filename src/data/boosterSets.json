@@ -1,0 +1,205 @@
+[
+  {
+    "id": "jush",
+    "label": "Justice Hunters",
+    "apiName": "Justice Hunters",
+    "cardsPerBooster": 7,
+    "featuredRarityReplace": "Super Rare",
+    "featuredOpenings": {
+        "ultra": [4, 8]
+    },
+    "randomDrops": {
+      "Starlight Rare": {
+        "oneIn": 288
+      },
+      "Collector's Rare": {
+        "oneIn": 72
+      }
+    },
+      "baseSlots": {
+      "Rare": 6,
+      "Super Rare": 1
+    }
+  },
+  {
+    "id": "bpro",
+    "label": "Burst Protocol",
+    "apiName": "Burst Protocol",
+    "featuredRarityReplace": "Super Rare",
+    "cardsPerBooster": 9,
+    "featuredOpenings": {
+        "ultra": [4, 8],
+        "secret": [12]
+    },
+    "randomDrops": {
+      "Starlight Rare": {
+        "oneIn": 288
+      }
+    },
+      "baseSlots": {
+      "Common": 8,
+      "Super Rare": 1
+    }
+  },
+  {
+    "id": "info",
+    "label": "Infinite Forbidden",
+    "apiName": "The Infinite Forbidden",
+    "cardsPerBooster": 9,
+    "featuredRarityReplace": "Super Rare",
+    "featuredOpenings": {
+          "ultra": [4, 8],
+          "secret": [12]
+      },
+    "randomDrops": {
+      "Quarter Century Secret Rare": {
+        "oneIn": 288
+      }
+    },
+      "baseSlots": {
+      "Common": 8,
+      "Super Rare": 1
+    }
+  },
+  {
+    "id": "lede",
+    "label": "Legacy Of Destruction",
+    "apiName": "Legacy of Destruction",
+    "cardsPerBooster": 9,
+    "featuredRarityReplace": "Super Rare",
+    "featuredOpenings": {
+        "ultra": [4, 8],
+        "secret": [12]
+    },
+    "randomDrops": {
+      "Quarter Century Secret Rare": {
+        "oneIn": 288
+      }
+    },
+      "baseSlots": {
+      "Common": 8,
+      "Super Rare": 1
+    }
+  },
+  {
+    "id": "etco",
+    "label": "Eternity Code",
+    "apiName": "Eternity Code",
+    "cardsPerBooster": 9,
+    "featuredRarityReplace": "Super Rare",
+    "featuredOpenings": {
+        "ultra": [4, 8],
+        "secret": [12]
+    },
+    "randomDrops": {
+      "Starlight Rare": {
+        "oneIn": 576
+      }
+      },
+      "baseSlots": {
+      "Common": 8,
+      "Super Rare": 1
+    }
+  },
+  {
+    "id": "dabl",
+    "label": "Darkwing Blast",
+    "apiName": "Darkwing Blast",
+    "cardsPerBooster": 9,
+    "featuredRarityReplace": "Super Rare",
+    "featuredOpenings": {
+        "ultra": [4, 8],
+        "secret": [12]
+    },
+    "randomDrops": {
+      "Starlight Rare": {
+        "oneIn": 576
+      }
+      },
+      "baseSlots": {
+      "Common": 8,
+      "Super Rare": 1
+    }
+  },
+  {
+    "id": "sast",
+    "label": "Savage Strike",
+    "apiName": "Savage Strike",
+    "cardsPerBooster": 9,
+    "featuredRarityReplace": "Super Rare",
+    "featuredOpenings": {
+      "ultra": [4, 8],
+      "secret": [12]
+    },
+    "baseSlots": {
+      "Common": 7,
+      "Rare": 1,
+      "Super Rare": 1
+    }
+  },
+  {
+    "id": "macr",
+    "label": "Maximum Crisis",
+    "apiName": "Maximum Crisis",
+    "cardsPerBooster": 9,
+    "featuredRarityReplace": "Super Rare",
+    "featuredOpenings": {
+      "ultra": [4, 8],
+      "secret": [12]
+    },
+    "baseSlots": {
+      "Common": 7,
+      "Rare": 1,
+      "Super Rare": 1
+    },
+    "disabled": true,
+    "disabledReason": "Erreur API 500 persistante via fetch."
+  },
+  {
+    "id": "ltgy",
+    "label": "Lord of the Tachyon Galaxy",
+    "apiName": "Lord of the Tachyon Galaxy",
+    "cardsPerBooster": 9,
+    "featuredRarityReplace": "Common",
+    "featuredOpenings": {
+      "super": [2, 5, 10],
+      "ultra": [4, 8],
+      "secret": [12]
+    },
+    "baseSlots": {
+      "Common": 8,
+      "Rare": 1
+    },
+    "disabled": true,
+    "disabledReason": "Erreur API 500 persistante via fetch."
+  },
+  {
+    "id": "mrd",
+    "label": "Metal Raiders",
+    "apiName": "Metal Raiders",
+    "cardsPerBooster": 9,
+    "featuredRarityReplace": "Common",
+    "featuredOpenings": {
+      "super": [2, 5, 10],
+      "ultra": [4, 8],
+      "secret": [12]
+    },
+    "baseSlots": {
+      "Common": 8,
+      "Rare": 1
+    }
+  },
+  {
+    "id": "mp25",
+    "label": "Tin Box 2025",
+    "apiName": "2025 Mega-Pack Tin",
+    "cardsPerBooster": 13,
+    "rarityMode": "fixed",
+    "baseSlots": {
+      "Starlight Rare": 1,
+      "Prismatic Secret Rare": 1,
+      "Ultra Rare": 3,
+      "Common": 8
+    }
+  }
+]
